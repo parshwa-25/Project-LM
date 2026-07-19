@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navi">
+        <p>Student Login Form</p>
+    </nav>
+
+    <div class="login-container">
+        <form action="student.php" method="post">
+            <div>
+                <label for="username" name="uname">Username:</label>
+                <input type="text" id="username" name="uname" placeholder="Eg: adam_123" required><br><br>
+            </div>
+            <div>
+                <label for="password" name="pword">Password:</label>
+                <input type="password" id="password" name="pword" placeholder="Enter Strong Password" required><br><br>
+            </div>
+            <p>New User? <a href="register.html">Register here</a></p>
+            <button type="submit" value="Login" class="log">Login</button>
+        </form>
+    </div>
+</body>
+
+</html>

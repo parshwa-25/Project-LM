@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navi">
+        <p>Student Registration Form</p>
+    </nav>
+
+    <div class="register-container">
+        <form action="register.php" method="post">
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="uname" required><br><br>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="pword" required><br><br>
+            </div>
+            <div>
+                <label for="dateOfBirth">Date of Birth:</label>
+                <input type="date" id="dateOfBirth" name="dob" required><br><br>
+            </div>
+            <p>Already a User? <a href="login.html">Login here</a></p>
+            <button type="submit" value="Register" class="log">Register</button>
+        </form>
+    </div>
+</body>
+
+</html>
