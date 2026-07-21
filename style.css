@@ -105,7 +105,7 @@ body {
     height: auto;
 }
 
-.login-container>form>.log, .register-container>form>.log {
+.login-container>form>button, .register-container>form>button {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -121,7 +121,7 @@ body {
     color: black;
 }
 
-.login-container>form>.log:hover, .register-container>form>.log:hover {
+.login-container>form>button:hover, .register-container>form>button:hover {
     border: 2px rgb(183, 76, 0) solid;
     cursor: pointer;
     box-shadow: 0 0 20px rgb(183, 76, 0);

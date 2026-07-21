@@ -16,10 +16,13 @@
 
     <div class="register-container">
         <form action="register.php" method="post">
+            </div>
+                <label for="name">Name:</label>
+                <input type="text" id="sname" name="name" placeholder="Enter Name" required><br><br>
+            </div>
             <div>
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="uname" placeholder="Eg: adam_123" required><br><br>
-            </div>
             <div>
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="pword" placeholder="Enter Strong Password" required><br><br>
@@ -29,7 +32,7 @@
                 <input type="date" id="dateOfBirth" name="dob" required><br><br>
             </div>
             <p>Already a User? <a href="login.html">Login here</a></p>
-            <button type="submit" value="Register" class="log">Register</button>
+            <button type="submit" value="Register">Register</button>
         </form>
     </div>
 </body>
