@@ -70,9 +70,16 @@ body {
     font-size: 15px;
 }
 
-.login-container>p>a, .register-container>p>a {
-    color: rgb(183, 76, 0);
+.forget {
+    color: rgb(255, 255, 255);
     font-weight: 700;
+    text-decoration: none;
+    transform: .25s;
+    transition: .25s ease-in-out;
+}
+
+.forget:hover {
+    color: rgb(113, 48, 1);
 }
 
 .login-container input, .register-container input {
@@ -81,6 +88,7 @@ body {
     height: max-content;
     width: 100%;
     padding: 10px;
+    color: white;
     background: none;
     background-color: rgba(0, 0, 0, 0.14);
     transform: .15s;
@@ -101,11 +109,11 @@ body {
     width: clamp(320px, 40%, 600px);
     min-width: 320px;
     max-width: 600px;
-    min-height: 360px;
+    /* min-height: 360px; */
     height: auto;
 }
 
-.login-container>form>button, .register-container>form>button {
+#loginBut, #regBut {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -121,7 +129,7 @@ body {
     color: black;
 }
 
-.login-container>form>button:hover, .register-container>form>button:hover {
+#loginBut:hover, #regBut:hover {
     border: 2px rgb(183, 76, 0) solid;
     cursor: pointer;
     box-shadow: 0 0 20px rgb(183, 76, 0);
